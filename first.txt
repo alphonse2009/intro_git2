@@ -1,22 +1,38 @@
-﻿ネガティブプロンプト
-worst quality, low quality, normal quality, jpeg artifacts, blurry, long neck, humpbacked, flat shading, flat color, grayscale, monochrome, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, missing arms, text, error, signature, watermark, username, shadow, frame
+﻿
+# gitのローカルリポジトリを作成する
+git init
+
+# ファイルをステージング環境にUPする
+git add first.txt # 特定のファイル
+git add .         # そのフォルダにあるすべてのもの
+
+# ローカルリポジトリにコミットする
+git commit
+  -- エディタが立ち上がるので、コミットのメッセージを入力して保存する
+  -- 変更内容の要約
+  -- 空行
+  -- 変更した理由
 
 
-git clone https://github.com/bmaltais/kohya_ss.git
+# ローカルPCのフォルダとリモートのリポジトリを結び付ける
+git remote add origin git@github.com:alphonse2009/intro_git2.git
+
+# デフォルトは鍵付きでコミットが必要になるので、鍵なしに設定する
+git remote set-url origin https://github.com/alphonse2009/intro_git2.git
+
+# リモートのリポジトリをコミットする
+git push -u origin master
 
 
-git clone https://github.com/toshiaki1729/datas...
 
-git clone https://github.com/toshiaki1729/dataset-tag-editor-standalone.git
+# リポジトリの状態を確認できる
+git status
 
+　変更しているものがなければ、特には表示されない
+　変更しているものがあれば、
+　 modified:   first.txt
+　のように表示される。
+　
+　
 
-pip install print_color
-
-conda install print_color
-
-pip  install cmd_args
- 
-
-D:\python\Python312\Scripts\
-D:\python\Python312\
 
