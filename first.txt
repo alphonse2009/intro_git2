@@ -1,0 +1,22 @@
+﻿ネガティブプロンプト
+worst quality, low quality, normal quality, jpeg artifacts, blurry, long neck, humpbacked, flat shading, flat color, grayscale, monochrome, bad anatomy, bad hands, missing fingers, extra digits, fewer digits, cropped, missing arms, text, error, signature, watermark, username, shadow, frame
+
+
+git clone https://github.com/bmaltais/kohya_ss.git
+
+
+git clone https://github.com/toshiaki1729/datas...
+
+git clone https://github.com/toshiaki1729/dataset-tag-editor-standalone.git
+
+
+pip install print_color
+
+conda install print_color
+
+pip  install cmd_args
+ 
+
+D:\python\Python312\Scripts\
+D:\python\Python312\
+
